@@ -243,18 +243,55 @@ input[type=submit] {
     width: 100%;
   }
   #main-container {
-    width: 70%;
-  }
-  #connect {
-    width: 30%;
-  }
+    width: 40%;
+    margin-right: 500px;
+   }
+   .auth-image{
+     width: 95%;
+     padding: 10px;
+   }
+   .sidebar {
+     width: 100%;
+     margin-right: -400px;
+  
+   }
 }
 
 @media screen and (max-width:767px) {
   #main-container {
-    width: 40%;
+    width: 100%;
+    max-width: 650px;
+    margin-right: 25px;
+   }
+   .auth-image{
+    width: 55%;
+   }
+
+  .sidebar {
+    width:100%;
+    max-width: 650px;
+    margin-right: 2px;
+  
+    }
+}
+@media screen and (max-width:639px) {
+  #masthead {
+    width: 100%;
+    position:fixed;
   }
-  #connect {
-    width: 38%;
-  }
+  #main-container {
+    width: 100%;
+    max-width: 550px;
+    margin-right: 25px;
+   }
+   .auth-image {
+    width: 95%;
+    padding: 10px;
+   }
+  .sidebar {
+    width:100%;
+    max-width: 650px;
+    margin-right: 2px;
+  
+    }
 }
